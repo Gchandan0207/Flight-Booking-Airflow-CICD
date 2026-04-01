@@ -70,7 +70,7 @@ with DAG(
             "execution_config": {
                 "service_account": "871907392802-compute@developer.gserviceaccount.com",
                 "network_uri": "projects/gdsk-cg/global/networks/default",
-                "subnetwork_uri": "projects/gdsk-cg/regions/us-central1/subnetworks/default",
+                "subnetwork_uri": "projects/gdsk-cg/regions/asia-east1/subnetworks/default",
             }
         },
     }
@@ -80,7 +80,7 @@ with DAG(
         batch=batch_details,
         batch_id=batch_id,
         project_id="gdsk-cg",
-        region="us-central1",
+        region="asia-east1",
         gcp_conn_id="google_cloud_default",
     )
 
